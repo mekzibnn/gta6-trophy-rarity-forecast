@@ -1,8 +1,8 @@
 # Refresh-Aware Earners/Players Trophy Forecaster
 
-[![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01.svg)](https://make.fun/badge/gta6-trophy-rarity-forecast-01/)
-[![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01/)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
-[make.fun bounty](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
+[![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
+[![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01/mekzibnn/gta6-trophy-rarity-forecast/rank.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
+[![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01/mekzibnn/gta6-trophy-rarity-forecast/reward.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
 
 Entry for [gta6-trophy-rarity-forecast-01](https://make.fun/bounty/gta6-trophy-rarity-forecast-01):
 forecast every GTA VI PS5 trophy's Exophase earn rate at 2026-11-26T00:00:00Z
