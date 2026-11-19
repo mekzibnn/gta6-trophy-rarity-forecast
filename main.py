@@ -61,12 +61,23 @@ DOC_HORIZON_MIN = 90.0
 EARLY_TOP_K = 5
 EARLY_MIX = 0.5
 
-# Spread budget, in logit units. The random-walk term uses the same
-# per-root-day scale the kit's baseline publishes (0.5); the
-# player-count term is small while the documented refresh pins the
-# size, larger when the size is extrapolated from past jumps.
-WALK_SIGMA = 0.5
-PLAYERS_SIGMA_FLAT = 0.15
+# Spread budget, in logit units. The allocation disagreement
+# (all-proportional vs all-early newcomer split) is the calibrated
+# term: it reproduces the full range of plausible refresh outcomes
+# the kit's own numbers allow. The other two terms must stay SMALL
+# corrections to it, not dominate it -- at WALK_SIGMA 0.5 and
+# PLAYERS_SIGMA_FLAT 0.15 they supplied 83% of the median trophy's
+# variance, the 90% band covered 98% of the practice answers, and
+# the long-horizon band saturated SIGMA_CAP on 52 of 54 trophies.
+# So the walk scale is halved (0.25 per root-day still leaves a
+# 0.53 logit walk term over the 4.5-day final horizon), and the
+# flat-branch player term is 0.05: that forecast is pinned by the
+# kit's published exact refresh (638 -> 3,868 players), not an
+# extrapolation, so its residual uncertainty is only the rounding
+# of the published figures. The trend branch keeps 0.25 -- jumps
+# extrapolated from past refreshes stay genuinely uncertain.
+WALK_SIGMA = 0.25
+PLAYERS_SIGMA_FLAT = 0.05
 PLAYERS_SIGMA_TREND = 0.25
 SIGMA_FLOOR = 0.10
 SIGMA_CAP = 1.20
