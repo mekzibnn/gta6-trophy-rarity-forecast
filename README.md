@@ -1,8 +1,8 @@
 # gta6-trophy-rarity-forecast — v2
 
 [![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
-[![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01/rank.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
-[![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01/reward.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
+[![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01/mekzibnn/gta6-trophy-rarity-forecast/rank.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
+[![make.fun](https://make.fun/badge/gta6-trophy-rarity-forecast-01/mekzibnn/gta6-trophy-rarity-forecast/reward.svg)](https://make.fun/bounty/gta6-trophy-rarity-forecast-01)
 
 Bounty: https://make.fun/competitions/gta6-trophy-rarity-forecast-01
 
